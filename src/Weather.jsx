@@ -70,6 +70,7 @@ function Weather(){
 
   return(
     <div>
+        <h1 style={{textAlign: 'center'}}>Precision Forecast</h1>
       <form className="weatherform" onSubmit={handleSubmit}>
         <input
           type="text"
